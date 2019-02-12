@@ -25,6 +25,7 @@ RUN set -eux && \
 ENV SGX_MODE SW
 ENV SGX_SDK /opt/sgxsdk
 ENV RUST_SGX_SDK /opt/rust-sgx-sdk
+ENV LD_LIBRARY_PATH $SGX_SDK/sdk_libs
 
 WORKDIR /sgx-devel
 
