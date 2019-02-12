@@ -1,8 +1,16 @@
-# SGX Development Environment w/ Rust SGX SDK
+# SGX Development Environment in Fedora
 
 `docker build -t sgx-devel .`
 
 `docker run -it --rm -v $(pwd):/sgx-devel sgx-devel`
+
+## Build
+
+`cd hello-world && make`
+
+## Run
+
+`cd build && ./helloworld`
 
 ## Credit
 

@@ -1,4 +1,4 @@
-UNTRUSTED_RUST_TARGET := app
+UNTRUSTED_RUST_TARGET := helloworld
 TRUSTED_RUST_TARGET := libhelloworld_trusted.a
 ENCLAVE_NAME := enclave.so
 SIGNED_ENCLAVE_NAME := enclave.signed.so
